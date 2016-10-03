@@ -1,4 +1,3 @@
-#!/bin/sh
 # -*- coding: utf-8 -*-
 
 import unittest
@@ -77,11 +76,11 @@ class RuAreaTestCase(ApiTestCase):
 class RuAreaPathTestCase(ApiTestCase):
     def get_call_params(self):
         return {
-            'a_path': '{}',
+            'a_path': '',
         }
 
     def get_function_name(self):
-        return 'ru_area'
+        return 'ru_area_path'
 
     def get_response_format(self):
         return [
